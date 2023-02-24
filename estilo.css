@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@600&display=swap');
+
+body{
+  background: rgb(188,254,255);
+  background: linear-gradient(180deg, rgba(188,254,255,1) 74%, rgba(255,255,255,1) 93%);
+
+background-repeat: no-repeat;
+
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 45px;
+  text-align: left;
+  /* border: 2px solid black; */
+  width: 40%;
+ 
+}
+
+.logo{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+
+ 
+}
+.l{
+  width: 16%;
+ 
+  margin-left: -16%;
+  margin-right: 26%;
+}
+
+.card {
+    margin: 0 auto;
+  text-align: center;
+    cursor: pointer;
+    width: 350px;
+    height: 329px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgba(213,213,213,1) 91%);
+    border-radius: 5px;
+    border: 4px outset rgba(146, 100, 255, 0.178);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-box-shadow: 12px 12px 2px 1px rgba(0, 225, 255, 0.2);
+            box-shadow: 12px 12px 2px 1px rgba(0, 66, 87, 0.2);
+   }
+   
+   .card:hover {
+    -webkit-box-shadow: -15px 15px 5px -1px rgba(0, 0, 255, .2);
+            box-shadow: -15px 15px 5px -1px rgba(0, 0, 255, .2);
+   }
+   
+
+
+   #temperatura{
+    font-size: 23px;
+    padding-top: 17%;
+    font-family: 'Ruda', sans-serif;
+   }
+
+   #busca{
+    margin-top: 5%;
+   }
+
+
+
+
+
+   .input {
+
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    background-color:none;
+    max-width: 190px;
+    height: 30px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 3px solid rgba(0, 0, 0, 0.486);
+    border-radius: 7px;
+    
+   
+  }
+  
+  .input:focus {
+    font-family: 'Ruda', sans-serif;
+ 
+    color: rgb(0, 0, 0);
+    background-color: none;
+    outline-color: rgba(0, 145, 202, 0.493);
+    box-shadow: -3px -3px 15px rgba(69, 202, 255, 0.61);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+
+   
+
+  .btn-donate {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgba(146, 100, 255, 0.178);
+    --btn-bg-2: rgba(146, 100, 255, 0.178);
+    --btn-bg-color: rgb(0, 0, 0);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.9em 1.4em;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(146, 100, 255, 0.178), 0px 5px 5px -1px rgba(146, 100, 255, 0.178), inset 4px 4px 8px rgba(146, 100, 255, 0.178), inset -4px -4px 8px rgba(146, 100, 255, 0.178);
+  }
+  
+  .btn-donate:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate:is(:focus, :focus-within,:active) {
+    outline: none;
+  
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate {
+      transition: linear;
+    }
+  }
+
+
+
+
+
+ 
+  @media (max-width: 700px){
+    .l{
+      display: none;
+    }
+    .h1{
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 30px;
+      text-align: center;
+      /* border: 2px solid black; */
+      width: 100%;
+    }
+    .card {
+      margin: 0 auto;
+    text-align: center;
+      cursor: pointer;
+      width: 300px;
+      height: 329px;
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgba(213,213,213,1) 91%);
+      border-radius: 5px;
+      border: 4px outset rgba(146, 100, 255, 0.178);
+      -webkit-transition: all .2s;
+      transition: all .2s;
+      -webkit-box-shadow: 12px 12px 2px 1px rgba(0, 225, 255, 0.2);
+              box-shadow: 12px 12px 2px 1px rgba(0, 66, 87, 0.2);
+     }
+     
+  }
